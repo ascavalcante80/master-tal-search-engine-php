@@ -1,0 +1,233 @@
+
+html, body {
+
+  	width: 100%;
+	height: 100%;
+
+}
+
+#main {
+
+	background: white;
+	height: 70%;
+	text-align:center;
+}
+
+#insertMovie {
+
+	background: white;
+	
+}
+
+
+#footer {
+
+	background: #E5E4E2;
+	height: 8%;
+	text-align:center;
+	color:#00091a;
+	display:table;
+	width:100%;
+	text-align: center;
+
+}
+
+#header {
+
+	background: white;
+	height: 22%;
+
+}
+
+#headerForm {
+
+	background: white;
+	height: 15%;
+
+}
+
+
+#headerDisplayMovie {
+
+	background: white;
+	height: 20%;
+
+}
+
+
+#displayMovie{
+
+	display: table;
+	width: 100%;
+	background: #e0e0eb;
+	height: 70%;	
+}
+
+
+#translations{
+	vertical-align: top;
+	display: table-cell;
+	padding: 18px;
+	width: 70%;	
+}
+
+#movieInfo{
+
+	display: table-cell;
+	background: #ccccb3;
+	border:1px solid  #d1d1e0;	
+	text-align:center;
+	vertical-align: middle;
+	padding: 5px;
+	width: 30%;
+}
+
+#mainResults{
+
+	background: white;
+	margin-left: 80px;	
+}
+
+#mainAboutUs{
+
+	height: 87%;
+	text-align:center;
+	padding-top: 30px;
+
+}
+div {
+background-size:100%;
+}
+
+
+#headerResults {
+	background: #f5f5ef;
+	height: 11%;
+	border: 1px solid #e0e0eb;
+}
+
+#headerResultsSub1{
+	
+	padding: 6px;
+	display:table;
+	vertical-align:top;
+	background: #f5f5ef;
+	height: 60%;
+	width:100%;
+	
+}
+
+#footerResults {
+
+	background: #blue;
+	
+}
+
+#dropdownResults{
+
+	display: table-cell;	
+	width: 30%;
+}
+
+
+#formResults{
+
+	display: table-cell;	
+	width: 100%;
+}
+
+#t01{
+	vertical-align: middle;
+	font-size: 16px;
+
+}
+
+td, tr {
+    padding: 5px;
+    text-align: center;
+}
+
+.details{
+	background: #ebebe0;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.wrapper {
+  float: left;
+  height: 4em; /* needs to be defined in this case so that the children know what they should be 100% height of */
+
+}
+
+.cellMovieInfo{
+	vertical-align: middle;
+	font-size: 16px;
+	height: 25px;
+	padding: 2px;
+}
+
+.englishTitle{
+	font-family: "Arial Black";
+	color:#19334d; 
+}
+
+.titleCell{
+	vertical-align: middle;
+	font-size: 16px;
+	color:#ecf2f9;
+	height: 25px;
+	padding: 2px;
+	background:#3973ac;
+}
+
+
+.searchField {
+	width: 400px;	
+}
+
+
+.submitButton{
+	text-align:center;				
+}
+
+
+.searchButton{
+	text-align:center;
+	width:150px;
+	background-color: #e7e7e7; 
+	color: #726E6D;
+	font-size: 16px;
+
+}
+h4.titleResult{
+
+	color:#0000cc;
+}
+
+.formTitle{
+	text-align:center;
+}
+
+
+.poster{
+	text-align:center;
+}
+
+.alphaIndex{
+
+  display: table-cell;
+  vertical-align: middle;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: #0044cc;
+    color: white;
+}
+
